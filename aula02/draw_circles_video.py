@@ -86,7 +86,7 @@ while(True):
     #More drawing functions @ http://docs.opencv.org/2.4/modules/core/doc/drawing_functions.html
 
     # Display the resulting frame
-    cv2.imshow('Detector de circulos',bordas_color)
+    cv2.imshow('Detector de circulos',bordas)
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
